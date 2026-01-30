@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CA. Kailash Gera | Chartered Accountant</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary-blue: #003366;
+            --secondary-blue: #0056b3;
+            --text-dark: #333;
+            --text-light: #666;
+            --bg-light: #f8f9fa;
+            --white: #ffffff;
+        }
+
+        body {
+            font-family: 'Lato', sans-serif;
+            line-height: 1.6;
+            color: var(--text-dark);
+            margin: 0;
+            padding: 0;
+            background-color: var(--bg-light);
+        }
+
+        header {
+            background-color: var(--white);
+            padding: 40px 20px;
+            text-align: center;
+            border-bottom: 4px solid var(--primary-blue);
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+
+        .firm-name {
+            font-family: 'Roboto', sans-serif;
+            font-size: 2.2rem;
+            color: var(--primary-blue);
+            margin: 0;
+            font-weight: 700;
+            letter-spacing: 1px;
+        }
+
+        .firm-tagline {
+            font-size: 1.1rem;
+            color: var(--text-light);
+            margin-top: 5px;
+            text-transform: uppercase;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+
+        section {
+            background: var(--white);
+            padding: 30px;
+            margin-bottom: 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        }
+
+        h2 {
+            color: var(--primary-blue);
+            border-left: 5px solid var(--primary-blue);
+            padding-left: 15px;
+            margin-top: 0;
+        }
+
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+        }
+
+        .service-card {
+            padding: 15px;
+            border: 1px solid #eee;
+            border-radius: 5px;
+            transition: transform 0.3s ease;
+        }
+
+        .service-card:hover {
+            border-color: var(--secondary-blue);
+            background-color: #fafbfc;
+        }
+
+        .service-card h3 {
+            color: var(--secondary-blue);
+            font-size: 1.2rem;
+            margin-top: 0;
+        }
+
+        .service-card ul {
+            padding-left: 20px;
+            margin-bottom: 0;
+        }
+
+        .contact-info {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            gap: 20px;
+        }
+
+        .contact-item {
+            flex: 1;
+            min-width: 250px;
+        }
+
+        .contact-item a {
+            color: var(--secondary-blue);
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .disclaimer {
+            font-size: 0.85rem;
+            color: #777;
+            background: #eee;
+            padding: 20px;
+            border-radius: 5px;
+            font-style: italic;
+            margin-top: 40px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 30px;
+            color: var(--text-light);
+            font-size: 0.9rem;
+        }
+
+        @media (max-width: 600px) {
+            .firm-name { font-size: 1.6rem; }
+            section { padding: 20px; }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1 class="firm-name">KAILASH KUMAR GERA & CO.</h1>
+        <div class="firm-tagline">Chartered Accountants</div>
+        <p><strong>CA. Kailash Gera</strong> | B.Com, ACA</p>
+    </header>
+
+    <div class="container">
+        
+        <section id="about">
+            <h2>About the Firm</h2>
+            <p>
+                Kailash Kumar Gera & Company is a professional Chartered Accountancy firm established in Shamgarh, Madhya Pradesh. 
+                We provide a wide range of professional services in the fields of accounting, auditing, taxation, and financial 
+                consultancy. Our firm is committed to maintaining the highest standards of professional ethics and 
+                integrity as prescribed by the Institute of Chartered Accountants of India (ICAI).
+            </p>
+        </section>
+
+        <section id="services">
+            <h2>Professional Services</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <h3>Taxation Services</h3>
+                    <ul>
+                        <li>Income Tax Return Filing</li>
+                        <li>GST Compliance & Returns</li>
+                        <li>TDS & TCS Compliance</li>
+                        <li>Tax Representation & Planning</li>
+                    </ul>
+                </div>
+                <div class="service-card">
+                    <h3>Audit & Assurance</h3>
+                    <ul>
+                        <li>Statutory Audit</li>
+                        <li>Tax Audit (u/s 44AB)</li>
+                        <li>Internal Audit</li>
+                        <li>Certification Services</li>
+                    </ul>
+                </div>
+                <div class="service-card">
+                    <h3>Business Setup</h3>
+                    <ul>
+                        <li>Company & LLP Formation</li>
+                        <li>Partnership Firm Registration</li>
+                        <li>MSME / Udyam Registration</li>
+                        <li>ROC Compliance</li>
+                    </ul>
+                </div>
+                <div class="service-card">
+                    <h3>Financial Advisory</h3>
+                    <ul>
+                        <li>Project Reports & CMA Data</li>
+                        <li>Business Advisory</li>
+                        <li>Accounting & Bookkeeping</li>
+                        <li>Digital Signature (DSC)</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Details</h2>
+            <div class="contact-info">
+                <div class="contact-item">
+                    <strong>📍 Address:</strong><br>
+                    Gera Complex, 44 Punjabi Colony,<br>
+                    Near Gurudwara, Shamgarh,<br>
+                    Madhya Pradesh - 458883
+                </div>
+                <div class="contact-item">
+                    <strong>📞 Phone:</strong><br>
+                    <a href="tel:+919589838508">+91 95898 38508</a><br>
+                    <a href="tel:+919993527182">+91 99935 27182</a>
+                </div>
+                <div class="contact-item">
+                    <strong>📧 Email:</strong><br>
+                    <a href="mailto:gerakailashca@gmail.com">gerakailashca@gmail.com</a>
+                </div>
+            </div>
+        </section>
+
+        <div class="disclaimer">
+            <strong>Disclaimer:</strong> This website is for informational purposes only and does not constitute 
+            an advertisement, solicitation, or professional advice. As per the guidelines of the Institute of 
+            Chartered Accountants of India (ICAI), the information provided herein is intended to provide a brief 
+            overview of the firm and its services. The user acknowledges that they are seeking information 
+            voluntarily.
+        </div>
+
+    </div>
+
+    <footer>
+        &copy; 2026 Kailash Kumar Gera & Company. All Rights Reserved.
+    </footer>
+
+</body>
+</html>
